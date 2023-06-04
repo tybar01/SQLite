@@ -1,38 +1,35 @@
 # Overview
 
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
+This software generates a database of random employees and adds them to a table. It then takes from that employee table and schedules a number of those employees for a day of work. The day of work is another table. 
 
-{Provide a description of the software that you wrote and how it integrates with a SQL Relational Database. Describe how to use your program.}
+This software was built to understand the basics of SQLite and apply it in a way that could be used in a large scale buisnees scale. 
 
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running, a walkthrough of the code, and a view of how created the Relational Database.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/p_DCvmLuXWQ)
 
 # Relational Database
 
-{Describe the relational database you are using.}
+The database that I'm using is an employee that has an employee id. The employee has a first name, last name,
+pay, job title, and an id.
 
-{Describe the structure (tables) of the relational database that you created.}
+The schedule class has a employee id, a number of hours worked that day, and a day they work on. The id is the common key between both 
+tables and is used to link the data to the other table. 
+
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+In this project I used visual studio code running SQLite to trim down on new programs runnings
 
-{Describe the programming language that you used and any libraries.}
-
+In SQLite we use SQL commands that are executed in a python style environment. In order to manage
+this we need to swap between the SQL syntax in strings for commands and python syntax. 
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
 
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- [sqlitetutorial](https://www.sqlitetutorial.net/)
+- [Youtube tutorial](https://www.youtube.com/watch?v=pd-0G0MigUA&t=931s&ab_channel=CoreySchafer)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-
-- Item 1
-- Item 2
-- Item 3
+- Add more tables with key values.
+- Impliment more python functions for easier readability
+- Figure output for common full SQL programs. 
